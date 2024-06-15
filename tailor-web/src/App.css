@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.MainContainer {
+  display: flex;
+}
+
+.ContainerOne {
+  height: 100vh;
+  width: 250px;
+  /* background-color: lightsteelblue; */
+  background-color: #FAF9F6;
+  /* border: 1px solid black; */
+  border-right: 1px solid #2683C6;
+}
+
+.ContainerTwo {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: lightgreen; */
+  background-color: lightsteelblue;
+  /* border: 1px solid black; */
+}
+
+.PageHeader {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Course {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0;
+  /* border: 2px solid black; */
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF9F6;
+  width: 250px;
+  height: 60px;
+}
+
+.TAILOR {
+  color: #2683C6;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.TAILOR:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.2s;
+
+}
+
+.sidebar {
+  width: 100%;
+  /* background-color: lightsteelblue; */
+  background-color: #FAF9F6;
+  color: #2683C6;
+}
+
+.sidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.row:hover {
+  cursor: pointer;
+  background-color: 2683C6;
+}
+
+#active {
+  background-color: #2683C6;
+  color: #FAF9F6;
+}
+
+.row {
+  width: 100%;
+  height: 60px;
+  /* border: 2px solid black; */
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+  display: grid;
+}
